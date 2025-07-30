@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    scroll-margin-top: 75px;
+}
+
+body {
+    background-color: rgb(124, 100, 100);
+}
+
+/* header and navigation */
+
+header {
+    background-image: url(../images/pattern.jpeg);
+    padding: 20px 0;
+}
+
+h1 {
+    font-family: Helvetica;
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+}
+
+section#nav {
+    background-color: rgb(124, 100, 100);
+    position:sticky;
+    top: 0;
+    height: 72px;
+}
+div#navline {
+    background-color: khaki;
+    height: 24px;
+    position: relative;
+    top: 24px;
+}
+
+nav {
+    width: fit-content;
+    margin: auto;
+    position: relative;
+    top: -12px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    font-family: Helvetica;
+    color: khaki;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: rgb(124, 100, 100);
+    border: 3px solid khaki;
+    border-radius: 10px;
+    margin: 0 16px;
+}
+nav li:hover {
+    transform: scale(1.2);
+}
+
+nav li a:hover {
+    color: rgb(124, 100, 100);     
+    background-color: khaki;
+    border: 3px solid rgb(124, 100, 100);
+    border-radius: 10px;
+}
+
+nav li a[href*="brushes"]:active {
+    color: rgb(124, 100, 100);    
+    background-color: mediumspringgreen;
+    border: 3px solid rgb(124, 100, 100);
+    border-radius: 10px;    
+}
+
+nav li a[href*="frames"]:active {
+    color: rgb(124, 100, 100);    
+    background-color: lightcoral;
+    border: 3px solid rgb(124, 100, 100);
+    border-radius: 10px;    
+}
+
+nav li a[href*="paint"]:active {
+    color: rgb(124, 100, 100);    
+    background-color: skyblue;
+    border: 3px solid rgb(124, 100, 100);
+    border-radius: 10px;    
+}
+
+/* product headers */
+h2 {
+    font-family: Helvetica;
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(124, 100, 100);  
+    margin: 16px 0;
+}
+#brushes h2 {
+    background-color: mediumspringgreen;
+}
+
+#frames h2 {
+    background-color: lightcoral;
+}
+
+#paint h2 {
+    background-color: skyblue;
+}
+
+/* product info */
+
+.img {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+h3 {
+    font-size: 24px;
+    margin: 16px 0;
+    color: rgb(31, 25, 25);
+    text-align: center;
+}
+
+main p {
+    font-size: 20px;
+    color: rgb(31, 25, 25);
+    padding: 0 16px;
+}
+
+span.price {
+    font-weight: bold;
+    color: blue;
+}
+
+/* contact info */
+
+footer {
+    background-color: khaki;
+    margin-top: 16px;
+    color: rgb(31, 25, 25);
+}
+
+footer p {
+    text-align: center;
+    padding-top: 16px;
+}
+
+footer ul {
+    width: fit-content;
+    margin: 0 auto;
+    padding: 16px 0;
+}
+
+footer ul li {
+    display: inline-block;
+    margin: 0 16px;
+}
