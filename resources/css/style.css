@@ -14,7 +14,7 @@ body {
 /* header and navigation */
 
 header {
-    background-image: url("../images/pattern.jpeg");
+    background-image: url(/images/pattern.jpeg);
     padding: 20px 0;
 }
 
